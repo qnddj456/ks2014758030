@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13b87315-81db-48c2-8b6a-a39bd2166b8c" name="Default Changelist" comment="" />
+    <list default="true" id="13b87315-81db-48c2-8b6a-a39bd2166b8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/META-INF/ac.kr.web.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ac/kr/web/domain/TestCreateRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/kr/web/domain/TestCreateRead.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -18,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ac/kr/web/domain/TestCreateRead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="1746">
+              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Basic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <state relative-caret-position="252">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +46,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Work.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="216">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +70,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Profile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="360">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Location.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,15 +100,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/test/java/ac/kr/web/domain/WorkTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/kr/web/domain/ProfileTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Profile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Location.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Basic.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/kr/web/repository/BasicRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/kr/web/repository/ProfileRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/kr/web/repository/LocationRepository.java" />
@@ -91,21 +117,23 @@
         <option value="$PROJECT_DIR$/src/test/java/ac/kr/web/domain/BasicTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/kr/web/domain/LocationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Work.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Profile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Location.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/kr/web/domain/TestCreateRead.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Basic.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="938" />
-    <option name="height" value="1088" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="940" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -190,6 +218,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,14 +228,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555049065939" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ks-web-2019-1.1" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555068898218" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LocationTest">
+  <component name="RunManager" selected="JUnit.TestCreateRead">
     <configuration name="LocationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ac.kr.web.test" />
       <extension name="coverage">
@@ -251,6 +280,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCreateRead.testReadBasic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ac.kr.web.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.kr.web.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.kr.web.domain" />
+      <option name="MAIN_CLASS_NAME" value="ac.kr.web.domain.TestCreateRead" />
+      <option name="METHOD_NAME" value="testReadBasic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ac.kr.web.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ac.kr.web.WebApplication" />
@@ -261,12 +306,13 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestCreateRead" />
+        <item itemvalue="JUnit.TestCreateRead.testReadBasic" />
         <item itemvalue="JUnit.LocationTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\qnddj\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -277,6 +323,11 @@
       <updated>1554962897059</updated>
       <workItem from="1554962904229" duration="6124000" />
       <workItem from="1555040482287" duration="1579000" />
+      <workItem from="1555059974274" duration="1123000" />
+      <workItem from="1555061130830" duration="78000" />
+      <workItem from="1555061327469" duration="22000" />
+      <workItem from="1555061378113" duration="1020000" />
+      <workItem from="1555067839582" duration="1797000" />
     </task>
     <servers />
   </component>
@@ -290,15 +341,32 @@
     <history-entry file="TestCreateRead - 2019.04.11 at 16h 50m 34s.xml">
       <configuration name="TestCreateRead" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LocationTest - 2019.04.12 at 18h 37m 09s.xml">
+      <configuration name="LocationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCreateRead - 2019.04.12 at 18h 37m 40s.xml">
+      <configuration name="TestCreateRead" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCreateRead - 2019.04.12 at 18h 38m 46s.xml">
+      <configuration name="TestCreateRead" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCreateRead - 2019.04.12 at 20h 25m 12s.xml">
+      <configuration name="TestCreateRead" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCreateRead_testReadBasic - 2019.04.12 at 20h 26m 55s.xml">
+      <configuration name="TestCreateRead.testReadBasic" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCreateRead - 2019.04.12 at 20h 35m 09s.xml">
+      <configuration name="TestCreateRead" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7703000" />
+    <option name="totallyTimeSpent" value="11743000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="750" height="870" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.38405797" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25350142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -308,21 +376,20 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3306233" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49789914" weight="0.32841823" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021008" side_tool="true" weight="0.32751676" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,6 +400,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3286517" />
+      <window_info anchor="right" id="Gradle" order="10" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38405797" />
@@ -376,13 +444,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/kr/web/WebApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -438,22 +499,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/kr/web/domain/WorkTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/kr/web/domain/ProfileTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/kr/web/domain/LocationTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Work.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Location.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state relative-caret-position="342">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -462,8 +513,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Work.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -472,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ac/kr/web/domain/Basic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="252">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -482,11 +543,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/kr/web/domain/TestCreateRead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="1746">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>

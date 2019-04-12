@@ -14,7 +14,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.time.LocalDate;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
 
 
 @RunWith(SpringRunner.class)
@@ -74,10 +75,10 @@ public class TestCreateRead {
                 .findById(savedBasic.getName())
                 .orElse(null);
 
-        assertThat(readBasic.getName()).isEqualTo(savedBasic.getName());
-        assertThat(readBasic.getEmail()).isEqualTo(savedBasic.getEmail());
-        assertThat(readBasic.getLabel()).isEqualTo(savedBasic.getLabel());
-        assertThat(readBasic.getPhone()).isEqualTo(savedBasic.getPhone());
+        assertThat(readBasic.getName(), is(savedBasic.getName()));
+        assertThat(readBasic.getEmail(), is(savedBasic.getEmail()));
+        assertThat(readBasic.getLabel(), is(savedBasic.getLabel()));
+        assertThat(readBasic.getPhone(), is(savedBasic.getPhone()));
     }
 
     @Test
@@ -86,8 +87,8 @@ public class TestCreateRead {
                 .findById(savedLocation.getAddress())
                 .orElse(null);
 
-        assertThat(readLocation.getAddress()).isEqualTo(savedLocation.getAddress());
-        assertThat(readLocation.getPostCode()).isEqualTo(savedLocation.getPostCode());
+        assertThat(readLocation.getAddress(), is(savedLocation.getAddress()));
+        assertThat(readLocation.getPostCode(), is(savedLocation.getPostCode()));
     }
 
     @Test
@@ -96,9 +97,9 @@ public class TestCreateRead {
                 .findById(savedProfile.getUserName())
                 .orElse(null);
 
-        assertThat(readProfile.getNetWork()).isEqualTo(savedProfile.getNetWork());
-        assertThat(readProfile.getUserName()).isEqualTo(savedProfile.getUserName());
-        assertThat(readProfile.getUrl()).isEqualTo(savedProfile.getUrl());
+        assertThat(readProfile.getNetWork(), is(savedProfile.getNetWork()));
+        assertThat(readProfile.getUserName(), is(savedProfile.getUserName()));
+        assertThat(readProfile.getUrl(), is(savedProfile.getUrl()));
     }
 
     @Test
@@ -107,12 +108,12 @@ public class TestCreateRead {
                 .findById(savedWork.getCompany())
                 .orElse(null);
 
-        assertThat(readWork.getCompany()).isEqualTo(savedWork.getCompany());
-        assertThat(readWork.getPosition()).isEqualTo(savedWork.getPosition());
-        assertThat(readWork.getWebSite()).isEqualTo(savedWork.getWebSite());
-        assertThat(readWork.getStartDate()).isEqualTo(savedWork.getStartDate());
-        assertThat(readWork.getEndDate()).isEqualTo(savedWork.getEndDate());
-        assertThat(readWork.getSummary()).isEqualTo(savedWork.getSummary());
+        assertThat(readWork.getCompany(), is(savedWork.getCompany()));
+        assertThat(readWork.getPosition(), is(savedWork.getPosition()));
+        assertThat(readWork.getWebSite(), is(savedWork.getWebSite()));
+        assertThat(readWork.getStartDate(), is(savedWork.getStartDate()));
+        assertThat(readWork.getEndDate(), is(savedWork.getEndDate()));
+        assertThat(readWork.getSummary(), is(savedWork.getSummary()));
     }
 
 
