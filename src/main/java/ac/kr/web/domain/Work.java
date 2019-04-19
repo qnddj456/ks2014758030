@@ -7,7 +7,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 // Lombok
 @Getter
@@ -29,16 +29,16 @@ public class Work {
     private String webSite;
 
     @Column
-    private LocalDate startDate;
+    private LocalDateTime startDate;
 
     @Column
-    private LocalDate endDate;
+    private LocalDateTime endDate;
 
     @Column
     private String summary;
 
     @Builder
-    public Work(String company, String position, String webSite, LocalDate startDate, LocalDate endDate, String summary) {
+    public Work(String company, String position, String webSite, LocalDateTime startDate, LocalDateTime endDate, String summary) {
         this.company = company;
         this.position = position;
         this.webSite = webSite;

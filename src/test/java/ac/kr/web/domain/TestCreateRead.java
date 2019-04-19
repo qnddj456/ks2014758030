@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
@@ -63,8 +63,8 @@ public class TestCreateRead {
                 .company("(주)홍길동")
                 .position("개발자")
                 .webSite("http://www.company.domain")
-                .startDate(LocalDate.of(2019, 01, 01))
-                .endDate(LocalDate.of(2019,01,02))
+                .startDate(LocalDateTime.of(2019, 01, 01, 0, 0))
+                .endDate(LocalDateTime.of(2019, 01, 02, 0, 0))
                 .summary("...요약")
                 .build());
     }
