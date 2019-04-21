@@ -20,6 +20,9 @@ public class Work {
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long idx;
+
+    @Column
     private String company;
 
     @Column

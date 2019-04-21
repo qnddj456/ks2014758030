@@ -19,6 +19,9 @@ public class Profile {
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long idx;
+
+    @Column
     private String userName;
 
     @Column

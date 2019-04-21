@@ -14,8 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.time.LocalDateTime;
 
-import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 
 @RunWith(SpringRunner.class)
@@ -63,7 +62,7 @@ public class TestCreateRead {
                 .company("(주)홍길동")
                 .position("개발자")
                 .webSite("http://www.company.domain")
-                .startDate(LocalDateTime.of(2019, 01, 01, 0, 0))
+                .startDate(LocalDateTime.of(2019, 01, 01, 0, 0 ))
                 .endDate(LocalDateTime.of(2019, 01, 02, 0, 0))
                 .summary("...요약")
                 .build());
@@ -72,51 +71,70 @@ public class TestCreateRead {
     @Test
     public void testReadBasic() {
         Basic readBasic = basicRepository
-                .findById(savedBasic.getName())
+                .findById(savedBasic.getIdx())
                 .orElse(null);
 
-        assertThat(readBasic.getName(), is(savedBasic.getName()));
-        assertThat(readBasic.getEmail(), is(savedBasic.getEmail()));
-        assertThat(readBasic.getLabel(), is(savedBasic.getLabel()));
-        assertThat(readBasic.getPhone(), is(savedBasic.getPhone()));
+        assertThat(readBasic.getName()).isEqualTo(savedBasic.getName());
+        assertThat(readBasic.getEmail()).isEqualTo(savedBasic.getEmail());
+        assertThat(readBasic.getLabel()).isEqualTo(savedBasic.getLabel());
+        assertThat(readBasic.getPhone()).isEqualTo(savedBasic.getPhone());
+
+        Basic findName = basicRepository
+                .findByName("홍길동");
+
+        assertThat(findName.getName()).isEqualTo("홍길동");
+
     }
 
     @Test
     public void testReadLocation() {
         Location readLocation = locationRepository
-                .findById(savedLocation.getAddress())
+                .findById(savedLocation.getIdx())
                 .orElse(null);
 
-        assertThat(readLocation.getAddress(), is(savedLocation.getAddress()));
-        assertThat(readLocation.getPostCode(), is(savedLocation.getPostCode()));
+        assertThat(readLocation.getAddress()).isEqualTo(savedLocation.getAddress());
+        assertThat(readLocation.getPostCode()).isEqualTo(savedLocation.getPostCode());
+
+        Location findPostCode = locationRepository
+                .findByPostCode("12345");
+
+        assertThat(findPostCode.getPostCode()).isEqualTo("12345");
+
     }
 
     @Test
     public void testReadProfile() {
         Profile readProfile = profileRepository
-                .findById(savedProfile.getUserName())
+                .findById(savedProfile.getIdx())
                 .orElse(null);
 
-        assertThat(readProfile.getNetWork(), is(savedProfile.getNetWork()));
-        assertThat(readProfile.getUserName(), is(savedProfile.getUserName()));
-        assertThat(readProfile.getUrl(), is(savedProfile.getUrl()));
+        assertThat(readProfile.getNetWork()).isEqualTo(savedProfile.getNetWork());
+        assertThat(readProfile.getUserName()).isEqualTo(savedProfile.getUserName());
+        assertThat(readProfile.getUrl()).isEqualTo(savedProfile.getUrl());
+
+        Profile findNetWork = profileRepository
+                .findByNetWork("Twitter");
+
+        assertThat(findNetWork.getNetWork()).isEqualTo("Twitter");
     }
 
     @Test
     public void testReadWork() {
         Work readWork = workRepository
-                .findById(savedWork.getCompany())
+                .findById(savedWork.getIdx())
                 .orElse(null);
 
-        assertThat(readWork.getCompany(), is(savedWork.getCompany()));
-        assertThat(readWork.getPosition(), is(savedWork.getPosition()));
-        assertThat(readWork.getWebSite(), is(savedWork.getWebSite()));
-        assertThat(readWork.getStartDate(), is(savedWork.getStartDate()));
-        assertThat(readWork.getEndDate(), is(savedWork.getEndDate()));
-        assertThat(readWork.getSummary(), is(savedWork.getSummary()));
+        assertThat(readWork.getCompany()).isEqualTo(savedWork.getCompany());
+        assertThat(readWork.getPosition()).isEqualTo(savedWork.getPosition());
+        assertThat(readWork.getWebSite()).isEqualTo(savedWork.getWebSite());
+        assertThat(readWork.getStartDate()).isEqualTo(savedWork.getStartDate());
+        assertThat(readWork.getEndDate()).isEqualTo(savedWork.getEndDate());
+        assertThat(readWork.getSummary()).isEqualTo(savedWork.getSummary());
+
+       Work findCompany = workRepository
+                .findByCompany("(주)홍길동");
+
+        assertThat(findCompany.getCompany()).isEqualTo("(주)홍길동");
     }
-
-
-
 
 }

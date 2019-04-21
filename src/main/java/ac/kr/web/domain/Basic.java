@@ -18,6 +18,9 @@ public class Basic {
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long idx;
+
+    @Column
     private String name;
 
     @Column

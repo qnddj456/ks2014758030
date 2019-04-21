@@ -18,6 +18,9 @@ public class Location {
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long idx;
+
+    @Column
     private String address;
 
     @Column
